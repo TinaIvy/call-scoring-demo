@@ -1,0 +1,15 @@
+# Virtual environment
+.venv/
+
+# Secrets - never commit these
+.env
+
+# Python cache files
+__pycache__/
+*.pyc
+
+# Test cache
+.pytest_cache/
+
+# Mac system file
+.DS_Store
