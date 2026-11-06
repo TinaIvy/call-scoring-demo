@@ -1,81 +1,141 @@
 [
-    {
-      "id": "call-01",
-      "turns": [
-        {"speaker": "setter", "text": "Thanks for calling Happy Paws Training, this is Jamie. How can I help you today?"},
-        {"speaker": "lead", "text": "Hi, my dog Bella pulls like crazy on walks."},
-        {"speaker": "setter", "text": "I'm sorry to hear that, that's really common. How old is Bella and what breed is she?"},
-        {"speaker": "lead", "text": "She's a two year old lab mix."},
-        {"speaker": "setter", "text": "Got it. How long has the pulling been going on, and have you tried any training before?"},
-        {"speaker": "lead", "text": "About a year, no training yet. Honestly I'm worried about the price."},
-        {"speaker": "setter", "text": "That's a fair concern. Our first consultation is free, and it helps you see what plan fits your budget before you commit anything."},
-        {"speaker": "lead", "text": "Okay, that sounds fine."},
-        {"speaker": "setter", "text": "Would Thursday at 4 PM work for your free consultation?"},
-        {"speaker": "lead", "text": "Yes, that works."},
-        {"speaker": "setter", "text": "Great, I've booked you for Thursday at 4 PM. You'll get a confirmation text shortly."}
-      ],
-      "human_scores": {"greeting": 2, "discovery": 2, "objection_handling": 2, "booking": 2}
-    },
-    {
-      "id": "call-02",
-      "turns": [
-        {"speaker": "lead", "text": "Hi, do you train dogs?"},
-        {"speaker": "setter", "text": "Yes."},
-        {"speaker": "lead", "text": "What's it cost?"},
-        {"speaker": "setter", "text": "Packages start at 500 dollars."},
-        {"speaker": "lead", "text": "Oh, that's more than I expected. I'll think about it."},
-        {"speaker": "setter", "text": "Okay, bye."}
-      ],
-      "human_scores": {"greeting": 0, "discovery": 0, "objection_handling": 0, "booking": 0}
-    },
-    {
-      "id": "call-03",
-      "turns": [
-        {"speaker": "setter", "text": "Hi, you've reached Happy Paws Training, this is Alex. How can I help?"},
-        {"speaker": "lead", "text": "I need help with my puppy chewing everything."},
-        {"speaker": "setter", "text": "Oh no, puppies can be a handful! How old is your puppy?"},
-        {"speaker": "lead", "text": "Four months, a golden retriever."},
-        {"speaker": "setter", "text": "Lovely. Our puppy program covers chewing. Feel free to check out our website for details."},
-        {"speaker": "lead", "text": "Okay thanks."},
-        {"speaker": "setter", "text": "Have a great day!"}
-      ],
-      "human_scores": {"greeting": 2, "discovery": 1, "objection_handling": 2, "booking": 0}
-    },
-    {
-      "id": "call-04",
-      "turns": [
-        {"speaker": "setter", "text": "Thank you for calling Happy Paws Training, this is Morgan. What can I do for you?"},
-        {"speaker": "lead", "text": "My dog Max barks at everyone who comes to the door."},
-        {"speaker": "setter", "text": "That must be stressful. How old is Max and what breed is he? And does it happen with every visitor?"},
-        {"speaker": "lead", "text": "He's five, a beagle, and yes every visitor. But I don't have time for weekly classes."},
-        {"speaker": "setter", "text": "Okay. Well, let me know if that changes."},
-        {"speaker": "lead", "text": "Sure."}
-      ],
-      "human_scores": {"greeting": 2, "discovery": 2, "objection_handling": 0, "booking": 0}
-    },
-    {
-      "id": "call-05",
-      "turns": [
-        {"speaker": "setter", "text": "Hello, Happy Paws Training, Riley speaking. How can I help?"},
-        {"speaker": "lead", "text": "I'd like to book a training session for my dog."},
-        {"speaker": "setter", "text": "Happy to help! Would Saturday at 10 AM work for a free consultation?"},
-        {"speaker": "lead", "text": "Sure."},
-        {"speaker": "setter", "text": "Perfect, I've booked Saturday at 10 AM for you."}
-      ],
-      "human_scores": {"greeting": 2, "discovery": 0, "objection_handling": 2, "booking": 2}
-    },
-    {
-      "id": "call-06",
-      "turns": [
-        {"speaker": "setter", "text": "Happy Paws Training, this is Jordan, how can I help you today?"},
-        {"speaker": "lead", "text": "My rescue dog is aggressive toward other dogs."},
-        {"speaker": "setter", "text": "Thanks for telling me. How old is she, and how long have you had her?"},
-        {"speaker": "lead", "text": "About three years old, we adopted her six months ago. Is training expensive? I'm on a budget."},
-        {"speaker": "setter", "text": "We have a few options at different price points."},
-        {"speaker": "lead", "text": "Hmm, okay."},
-        {"speaker": "setter", "text": "Do you want to come in for a consultation sometime?"},
-        {"speaker": "lead", "text": "Maybe, I'll check my schedule."}
-      ],
-      "human_scores": {"greeting": 2, "discovery": 2, "objection_handling": 1, "booking": 1}
-    }
-  ]
+  {
+    "id": "call-01",
+    "turns": [
+      {"speaker": "setter", "text": "Thanks for calling Happy Paws Training, this is Jamie. How can I help you today?"},
+      {"speaker": "lead", "text": "Hi, my dog Bella pulls like crazy on walks."},
+      {"speaker": "setter", "text": "I'm sorry to hear that, that's really common. How old is Bella and what breed is she?"},
+      {"speaker": "lead", "text": "She's a two year old lab mix."},
+      {"speaker": "setter", "text": "Got it. How long has the pulling been going on, and have you tried any training before?"},
+      {"speaker": "lead", "text": "About a year, no training yet. Honestly I'm worried about the price."},
+      {"speaker": "setter", "text": "That's a fair concern. Our first consultation is free, and it helps you see what plan fits your budget before you commit anything."},
+      {"speaker": "lead", "text": "Okay, that sounds fine."},
+      {"speaker": "setter", "text": "Would Thursday at 4 PM work for your free consultation?"},
+      {"speaker": "lead", "text": "Yes, that works."},
+      {"speaker": "setter", "text": "Great, I've booked you for Thursday at 4 PM. You'll get a confirmation text shortly."}
+    ],
+    "human_scores": {"greeting": 2, "discovery": 2, "objection_handling": 2, "booking": 2}
+  },
+  {
+    "id": "call-02",
+    "turns": [
+      {"speaker": "lead", "text": "Hi, do you train dogs?"},
+      {"speaker": "setter", "text": "Yes."},
+      {"speaker": "lead", "text": "What's it cost?"},
+      {"speaker": "setter", "text": "Packages start at 500 dollars."},
+      {"speaker": "lead", "text": "Oh, that's more than I expected. I'll think about it."},
+      {"speaker": "setter", "text": "Okay, bye."}
+    ],
+    "human_scores": {"greeting": 0, "discovery": 0, "objection_handling": 0, "booking": 0}
+  },
+  {
+    "id": "call-03",
+    "turns": [
+      {"speaker": "setter", "text": "Hi, you've reached Happy Paws Training, this is Alex. How can I help?"},
+      {"speaker": "lead", "text": "I need help with my puppy chewing everything."},
+      {"speaker": "setter", "text": "Oh no, puppies can be a handful! How old is your puppy?"},
+      {"speaker": "lead", "text": "Four months, a golden retriever."},
+      {"speaker": "setter", "text": "Lovely. Our puppy program covers chewing. Feel free to check out our website for details."},
+      {"speaker": "lead", "text": "Okay thanks."},
+      {"speaker": "setter", "text": "Have a great day!"}
+    ],
+    "human_scores": {"greeting": 2, "discovery": 1, "objection_handling": 2, "booking": 0}
+  },
+  {
+    "id": "call-04",
+    "turns": [
+      {"speaker": "setter", "text": "Thank you for calling Happy Paws Training, this is Morgan. What can I do for you?"},
+      {"speaker": "lead", "text": "My dog Max barks at everyone who comes to the door."},
+      {"speaker": "setter", "text": "That must be stressful. How old is Max and what breed is he? And does it happen with every visitor?"},
+      {"speaker": "lead", "text": "He's five, a beagle, and yes every visitor. But I don't have time for weekly classes."},
+      {"speaker": "setter", "text": "Okay. Well, let me know if that changes."},
+      {"speaker": "lead", "text": "Sure."}
+    ],
+    "human_scores": {"greeting": 2, "discovery": 2, "objection_handling": 0, "booking": 0}
+  },
+  {
+    "id": "call-05",
+    "turns": [
+      {"speaker": "setter", "text": "Hello, Happy Paws Training, Riley speaking. How can I help?"},
+      {"speaker": "lead", "text": "I'd like to book a training session for my dog."},
+      {"speaker": "setter", "text": "Happy to help! Would Saturday at 10 AM work for a free consultation?"},
+      {"speaker": "lead", "text": "Sure."},
+      {"speaker": "setter", "text": "Perfect, I've booked Saturday at 10 AM for you."}
+    ],
+    "human_scores": {"greeting": 2, "discovery": 0, "objection_handling": 2, "booking": 2}
+  },
+  {
+    "id": "call-06",
+    "turns": [
+      {"speaker": "setter", "text": "Happy Paws Training, this is Jordan, how can I help you today?"},
+      {"speaker": "lead", "text": "My rescue dog is aggressive toward other dogs."},
+      {"speaker": "setter", "text": "Thanks for telling me. How old is she, and how long have you had her?"},
+      {"speaker": "lead", "text": "About three years old, we adopted her six months ago. Is training expensive? I'm on a budget."},
+      {"speaker": "setter", "text": "We have a few options at different price points."},
+      {"speaker": "lead", "text": "Hmm, okay."},
+      {"speaker": "setter", "text": "Do you want to come in for a consultation sometime?"},
+      {"speaker": "lead", "text": "Maybe, I'll check my schedule."}
+    ],
+    "human_scores": {"greeting": 2, "discovery": 2, "objection_handling": 1, "booking": 1}
+  },
+  {
+    "id": "call-07",
+    "turns": [
+      {"speaker": "setter", "text": "Good morning, Happy Paws Training, this is Casey. How can I help?"},
+      {"speaker": "lead", "text": "Our rescue greyhound Rocky is anxious when we leave the house."},
+      {"speaker": "setter", "text": "Poor guy, that's tough. Tell me about Rocky and what a typical day looks like when you head out."},
+      {"speaker": "lead", "text": "He's about four. He paces and whines the whole time. I'd love help but I'm worried we can't afford weekly sessions."},
+      {"speaker": "setter", "text": "Many owners feel that way. We offer a short monthly check-in plan instead of weekly classes, so it stays manageable."},
+      {"speaker": "lead", "text": "Oh, that would work."},
+      {"speaker": "setter", "text": "Wonderful. Can I put you down for tomorrow at noon for a free consultation?"},
+      {"speaker": "lead", "text": "Yes please."},
+      {"speaker": "setter", "text": "Done, you're booked for tomorrow at noon."}
+    ],
+    "human_scores": {"greeting": 2, "discovery": 2, "objection_handling": 2, "booking": 2}
+  },
+  {
+    "id": "call-08",
+    "turns": [
+      {"speaker": "setter", "text": "Happy Paws Training, how can I help?"},
+      {"speaker": "lead", "text": "Do you do group classes for reactive dogs?"},
+      {"speaker": "setter", "text": "We do. How old is your dog, and what breed?"},
+      {"speaker": "lead", "text": "Two years old, a husky."},
+      {"speaker": "setter", "text": "Thanks. Does the reactivity happen on walks, at home, or both?"},
+      {"speaker": "lead", "text": "Mostly on walks. Price is a concern for us though."},
+      {"speaker": "setter", "text": "I understand. We have a free first consultation and payment plans, so you can see the cost before deciding."},
+      {"speaker": "lead", "text": "Okay, that helps."},
+      {"speaker": "setter", "text": "Would Monday at 6 PM work for the free consultation?"},
+      {"speaker": "lead", "text": "Monday works."},
+      {"speaker": "setter", "text": "Great, I've booked you for Monday at 6 PM."}
+    ],
+    "human_scores": {"greeting": 1, "discovery": 2, "objection_handling": 2, "booking": 2}
+  },
+  {
+    "id": "call-09",
+    "turns": [
+      {"speaker": "setter", "text": "Happy Paws Training, this is Dana."},
+      {"speaker": "lead", "text": "Hi, I'm looking for help with leash training."},
+      {"speaker": "setter", "text": "Sure. Would Wednesday at 5 PM work for a consultation?"},
+      {"speaker": "lead", "text": "Hmm, that's kind of soon. I'm not sure yet."},
+      {"speaker": "setter", "text": "It's only a consultation. I've booked you for Wednesday at 5 PM."},
+      {"speaker": "lead", "text": "Okay, I guess."}
+    ],
+    "human_scores": {"greeting": 2, "discovery": 0, "objection_handling": 0, "booking": 1}
+  },
+  {
+    "id": "call-10",
+    "turns": [
+      {"speaker": "lead", "text": "Hello?"},
+      {"speaker": "setter", "text": "Hi, this is Pat from Happy Paws Training. You asked about help with your dog online. Is now a good time?"},
+      {"speaker": "lead", "text": "Sure."},
+      {"speaker": "setter", "text": "Great. How old is your dog, and what breed?"},
+      {"speaker": "lead", "text": "Luna, three, a border collie. She herds the kids and nips at ankles."},
+      {"speaker": "setter", "text": "That's very common with collies. How long has the nipping been going on?"},
+      {"speaker": "lead", "text": "A few months."},
+      {"speaker": "setter", "text": "Thanks. Would Friday at 2 PM work for a free consultation?"},
+      {"speaker": "lead", "text": "Friday at 2 is fine."},
+      {"speaker": "setter", "text": "Perfect, I've booked you for Friday at 2 PM."}
+    ],
+    "human_scores": {"greeting": 2, "discovery": 2, "objection_handling": 2, "booking": 2}
+  }
+]

@@ -11,5 +11,10 @@ __pycache__/
 # Test cache
 .pytest_cache/
 
+# Packaging output
+*.egg-info/
+build/
+dist/
+
 # Mac system file
 .DS_Store
